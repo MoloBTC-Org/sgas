@@ -1,0 +1,7 @@
+# Ignore build artifacts, temporary files, etc.
+*.pdf
+*.docx
+.DS_Store
+__pycache__/
+*.pyc
+logs/
