@@ -2,35 +2,52 @@
 
 ![Sovereign Grok Agent Suite](assets/header-sovereign-grok-agent-suite.jpg)
 
-**v0.1 Draft** — Work in progress until formal GitHub publication.
+**v1.0.0**
+
+Canonical hub: [github.com/MoloBTC-Org/sgas](https://github.com/MoloBTC-Org/sgas)
 
 A modular collection of documents for building **sovereign, secure, and practical AI agent systems** with Grok Build.
 
 ---
 
-## Current Status (August 2026)
+## Current Status
 
-- **Version**: v0.1 Draft
-- **Grok Build** reached **v1.0.0** and has been **fully open-sourced** (Apache 2.0) by xAI / SpaceXAI. The harness (CLI + TUI) is publicly inspectable and auditable.
-- Grok 4.5 is available on the free tier, significantly improving accessibility for Entry Tier users.
-- All core documents include explicit privacy and sovereignty guidance regarding advanced cloud features (repository uploads).
+- **Version**: v1.0.0
+- This repository is the **canonical published suite**.
+- **Grok Build** reached **v1.0.0** and is **open-sourced** (Apache 2.0) by xAI / SpaceXAI.
+- Grok 4.5 is available on the free tier, which improves accessibility for Entry Tier users.
+- Core documents include explicit privacy and sovereignty guidance on advanced cloud features (repository uploads).
 - Adjacent infrastructure context (Start9 Personal Data Centers + Buzz / MeshLLM) is documented separately.
+
+---
+
+## Authorship and publication
+
+**Author**: Jacques Strydom, PMP — **@JabulaniJakes**  
+**Collaboration**: Grok (built by xAI / SpaceXAI)
+
+**Publisher / housing**: [MoloBTC-Org](https://github.com/MoloBTC-Org) hosts this repository for distribution only. MoloBTC-Org does **not** take authorship credit.
+
+**License**: [BSOL v1.0](https://github.com/MoloBTC-Org/bsol) — see [`LICENSE.md`](LICENSE.md)
 
 ---
 
 ## Repository Structure
 
 ```
-sovereign-grok-agent-suite/
+sgas/
 ├── README.md
-├── LICENSE                          # BSOL v1
+├── LICENSE.md                       # BSOL v1.0 (from MoloBTC-Org/bsol)
+├── LICENSE                          # pointer
+├── NOTICE
+├── DONATIONS.md
 ├── CHANGELOG.md
 ├── CONTRIBUTING.md
-├── Makefile                         # PDF generation
+├── Makefile
 ├── .gitignore
 ├── assets/
 │   └── header-sovereign-grok-agent-suite.jpg
-├── archive/                         # Earlier synthesis work
+├── archive/
 │   ├── Grok_Build_Ecosystem_Comprehensive_Synthesis.md
 │   └── Grok_Build_vs_gstack_Comparative_Synthesis.md
 └── docs/
@@ -43,18 +60,18 @@ sovereign-grok-agent-suite/
     ├── Sovereign_Grok_Agent_Quick_Start_One_Pager.md
     ├── Visual_Journey_Map_Sovereign_Grok_Agent_Suite.md
     ├── Master_Index_Sovereign_Grok_Agent_Suite.md
-    └── Sovereign_Agent_Infrastructure_Layer.md   # Adjacent context
+    └── Sovereign_Agent_Infrastructure_Layer.md
 ```
 
 ---
 
 ## Quick Start
 
-1. Start with the **[Quick Start One-Pager](docs/Sovereign_Grok_Agent_Quick_Start_One_Pager.md)** (tiered paths for Entry / Balanced / Top).
-2. Browse the **[Capabilities Reference Card](docs/Grok_Build_Capabilities_Reference_Card.md)** for what Grok Build can do today.
-3. Use the **[Master Index](docs/Master_Index_Sovereign_Grok_Agent_Suite.md)** for full navigation and reading order.
+1. **[Quick Start One-Pager](docs/Sovereign_Grok_Agent_Quick_Start_One_Pager.md)** — Entry / Balanced / Top paths
+2. **[Capabilities Reference Card](docs/Grok_Build_Capabilities_Reference_Card.md)** — what Grok Build can do
+3. **[Master Index](docs/Master_Index_Sovereign_Grok_Agent_Suite.md)** — full navigation
 
-**Recommended reading path**: Beginner Foundations → Max Security Agent Guide → Advanced MCP Zero Trust → Local Models Guide → Grok-Native Path.
+**Reading path**: Beginner Foundations → Max Security Agent Guide → Advanced MCP Zero Trust → Local Models Guide → Grok-Native Path.
 
 ---
 
@@ -62,10 +79,10 @@ sovereign-grok-agent-suite/
 
 - **Sovereignty & Local-First** where practical
 - **Strategic Grok leverage** (free tier + paid tiers as optional accelerators)
-- **Hardware-aware tiers** (Entry / Balanced / Top) with explicit cost and emerging-market considerations
+- **Hardware-aware tiers** (Entry / Balanced / Top), including constrained and emerging-market setups
 - **Security by design** (Zero Trust MCPs, worktrees, Plan Mode, strict permissions)
-- **Honest trade-off awareness** (advanced agentic features may involve cloud data uploads — treat as high-privilege)
-- **Open & inspectable** (Grok Build harness is open-source under Apache 2.0)
+- **Honest trade-offs** (advanced agentic features may upload repository context — treat as high-privilege)
+- **Open & inspectable** (Grok Build harness is Apache 2.0)
 
 ---
 
@@ -73,23 +90,13 @@ sovereign-grok-agent-suite/
 
 Authored by **@JabulaniJakes** in collaboration with **Grok (built by xAI / SpaceXAI)**.
 
-This body of work could not have been produced with the same efficiency, depth, and iterative rigor without the xAI team and Grok. Appropriate credit is given throughout.
+Published under **MoloBTC-Org** as a housing and distribution surface only.
 
 ---
 
 ## License
 
-**BSOL v1** (Bitcoin Sovereign Open Source License)
-
-See `LICENSE` for details.
-
----
-
-## Final Notes (v0.1 Draft)
-
-- This suite is deliberately **methodology-first** and sovereignty-focused. It prioritizes controlled, auditable agent construction over chasing every new cloud feature.
-- Grok Build’s rapid maturation (100+ updates in ~10 weeks to v1.0.0 + open-sourcing) is acknowledged and reflected in the documents, while the privacy and sovereignty warnings remain primary.
-- Cloud-native multi-agent products (e.g. Grok Bot) are treated as comparative ecosystem options only — they sit outside the recommended sovereign stack due to cost and data-control trade-offs.
-- The suite is versioned as **0.x Draft** until formal GitHub publication. Future updates will follow the same disciplined, high-clarity approach.
-
-*Thank you for the collaboration. This is a living draft ready for the next stage of publication.*
+**BSOL v1.0** — Bitcoin Sovereign Open Source License  
+Canonical license text: [MoloBTC-Org/bsol](https://github.com/MoloBTC-Org/bsol)  
+This repo copy: [`LICENSE.md`](LICENSE.md)  
+Attribution: [`NOTICE`](NOTICE)

@@ -1,35 +1,36 @@
 # Contributing to Sovereign Grok Agent Suite
 
-Thank you for your interest in contributing!
+**Version**: v1.0.0  
+**Canonical hub**: https://github.com/MoloBTC-Org/sgas
 
-This project is currently in **v0.1 Draft** status. We are actively refining the documents before formal publication.
+**Author**: @JabulaniJakes  
+MoloBTC-Org houses the publication only.
 
 ## How to Contribute
 
 ### Reporting Issues
-- Use the GitHub Issues tab.
-- Please provide clear descriptions and, if possible, suggested improvements or examples.
+Use GitHub Issues on the canonical repo.
 
 ### Suggesting Changes
-- Fork the repository.
-- Create a new branch for your changes (`git checkout -b my-improvement`).
-- Make your changes to the Markdown files in the `docs/` folder.
-- Submit a Pull Request with a clear description of what you changed and why.
+1. Fork the repository.
+2. Create a branch.
+3. Edit files in `docs/` or top-level metadata.
+4. Record user-visible changes in `CHANGELOG.md`.
+5. Open a Pull Request.
 
 ### Style Guidelines
-- Keep language clear, practical, and aligned with sovereignty-focused principles.
-- Maintain consistent formatting (headings, code blocks, tables).
-- Use Mermaid diagrams where helpful, and include ASCII fallbacks.
-- When adding new content, consider how it fits the **Entry / Balanced / Top Tier** framework.
+- Clear, practical, sovereignty-focused language.
+- Consistent headings, tables, and code blocks.
+- Mermaid diagrams plus ASCII fallbacks where diagrams exist.
+- Fit new material into Entry / Balanced / Top Tier.
+- Do not present expensive cloud-only multi-agent platforms as the default path.
 
 ### Versioning
-- All changes should be documented in `CHANGELOG.md`.
-- We are currently on **v0.1 Draft**. Major changes will bump the version when we move toward formal releases.
+Current release: **v1.0.0**.  
+Additive improvements that do not change the methodology land in a future v1.x.
 
 ## Code of Conduct
 
-Please be respectful and constructive. This project aims to support developers building sovereign systems, especially those in constrained environments.
+Be respectful. This suite exists to help builders — including those on weak hardware and slow connections — construct sovereign agent systems.
 
----
-
-*Thank you for helping improve this suite!*
+License: BSOL v1.0 (https://github.com/MoloBTC-Org/bsol)
