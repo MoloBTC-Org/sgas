@@ -99,4 +99,3 @@ Published under **MoloBTC-Org** as a housing and distribution surface only.
 **BSOL v1.0** — Bitcoin Sovereign Open Source License  
 Canonical license text: [MoloBTC-Org/bsol](https://github.com/MoloBTC-Org/bsol)  
 This repo copy: [`LICENSE.md`](LICENSE.md)  
-Attribution: [`NOTICE`](NOTICE)
