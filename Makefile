@@ -11,13 +11,13 @@ help:
 # Generate combined PDF using Pandoc
 pdf:
 	@echo "Generating Sovereign Grok Agent Suite PDF..."
-	pandoc docs/*.md -o Sovereign_Grok_Agent_Suite_v0.1.pdf \
+	pandoc docs/*.md -o Sovereign_Grok_Agent_Suite_v1.0.0.pdf \
 		--toc --toc-depth=3 \
 		--pdf-engine=xelatex \
 		-V geometry:margin=1in \
 		-V fontsize=11pt \
 		--highlight-style=tango
-	@echo "PDF created: Sovereign_Grok_Agent_Suite_v0.1.pdf"
+	@echo "PDF created: Sovereign_Grok_Agent_Suite_v1.0.0.pdf"
 
 clean:
 	rm -f *.pdf

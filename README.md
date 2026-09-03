@@ -51,27 +51,39 @@ sgas/
 │   ├── Grok_Build_Ecosystem_Comprehensive_Synthesis.md
 │   └── Grok_Build_vs_gstack_Comparative_Synthesis.md
 └── docs/
-    ├── Grok_Build_Sovereign_Foundations_Beginner_Guide.md
-    ├── Grok_Build_Max_Security_Agent_Guide.md
-    ├── Grok_Build_Advanced_Production_MCP_Zero_Trust.md
-    ├── Sovereign_Local_Models_Guide_Starter_to_Advanced.md
-    ├── Grok_Native_Sovereign_Agent_Path.md
-    ├── Grok_Build_Capabilities_Reference_Card.md
-    ├── Sovereign_Grok_Agent_Quick_Start_One_Pager.md
-    ├── Visual_Journey_Map_Sovereign_Grok_Agent_Suite.md
-    ├── Master_Index_Sovereign_Grok_Agent_Suite.md
-    └── Sovereign_Agent_Infrastructure_Layer.md
+    ├── 01_Grok_Build_Sovereign_Foundations_Beginner_Guide.md
+    ├── 02_Grok_Build_Max_Security_Agent_Guide.md
+    ├── 03_Grok_Build_Advanced_Production_MCP_Zero_Trust.md
+    ├── 04_Sovereign_Local_Models_Guide_Starter_to_Advanced.md
+    ├── 05_Grok_Native_Sovereign_Agent_Path.md
+    ├── 06_Grok_Build_Capabilities_Reference_Card.md
+    ├── 07_Sovereign_Grok_Agent_Quick_Start_One_Pager.md
+    ├── 08_Visual_Journey_Map_Sovereign_Grok_Agent_Suite.md
+    ├── 09_Master_Index_Sovereign_Grok_Agent_Suite.md
+    └── 10_Sovereign_Agent_Infrastructure_Layer.md   # adjacent
 ```
 
 ---
 
 ## Quick Start
 
-1. **[Quick Start One-Pager](docs/Sovereign_Grok_Agent_Quick_Start_One_Pager.md)** — Entry / Balanced / Top paths
-2. **[Capabilities Reference Card](docs/Grok_Build_Capabilities_Reference_Card.md)** — what Grok Build can do
-3. **[Master Index](docs/Master_Index_Sovereign_Grok_Agent_Suite.md)** — full navigation
+Entry points:
 
-**Reading path**: Beginner Foundations → Max Security Agent Guide → Advanced MCP Zero Trust → Local Models Guide → Grok-Native Path.
+1. **[07 — Sovereign Grok Agent Quick Start Guide](docs/07_Sovereign_Grok_Agent_Quick_Start_One_Pager.md)**
+2. **[06 — Grok Build Capabilities Reference Card](docs/06_Grok_Build_Capabilities_Reference_Card.md)**
+3. **[09 — Master Index: Sovereign Grok Agent Suite](docs/09_Master_Index_Sovereign_Grok_Agent_Suite.md)**
+4. **[08 — Visual Journey Map: Sovereign Grok Agent Suite](docs/08_Visual_Journey_Map_Sovereign_Grok_Agent_Suite.md)**
+
+**Core reading path**
+
+1. [01 — Foundations of Sovereign AI Agents](docs/01_Grok_Build_Sovereign_Foundations_Beginner_Guide.md)
+2. [02 — Building AI Agents Natively with Grok Build in Maximum Security (Local-First) Mode](docs/02_Grok_Build_Max_Security_Agent_Guide.md)
+3. [03 — Production-Ready Zero Trust MCP Servers for Sovereign Grok Build Agents](docs/03_Grok_Build_Advanced_Production_MCP_Zero_Trust.md)
+4. [04 — Sovereign Local Models for Grok Build: Starter to Advanced Tiers](docs/04_Sovereign_Local_Models_Guide_Starter_to_Advanced.md)
+5. [05 — Grok-Native Sovereign Agent Path](docs/05_Grok_Native_Sovereign_Agent_Path.md)
+
+Adjacent: [10 — Sovereign Agent Infrastructure Layer (Adjacent Context)](docs/10_Sovereign_Agent_Infrastructure_Layer.md)
+
 
 ---
 
@@ -99,3 +111,4 @@ Published under **MoloBTC-Org** as a housing and distribution surface only.
 **BSOL v1.0** — Bitcoin Sovereign Open Source License  
 Canonical license text: [MoloBTC-Org/bsol](https://github.com/MoloBTC-Org/bsol)  
 This repo copy: [`LICENSE.md`](LICENSE.md)  
+Attribution: [`NOTICE`](NOTICE)
