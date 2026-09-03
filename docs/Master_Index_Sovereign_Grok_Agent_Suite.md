@@ -8,7 +8,6 @@
 **Version**: v1.0.0  
 **Canonical hub**: https://github.com/MoloBTC-Org/sgas  
 **Author**: @JabulaniJakes (published under MoloBTC-Org for housing only)  
-**Parked future work**: `docs/FUTURE_UPDATES.md`  
 **Purpose**: This index provides an overview, recommended reading order, and quick navigation for the full suite of documents created to support sovereign, secure, and practical agentic workflows using Grok Build.
 
 ---
