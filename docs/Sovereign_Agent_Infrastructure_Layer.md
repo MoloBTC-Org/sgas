@@ -1,6 +1,6 @@
 # Sovereign Agent Infrastructure Layer (Adjacent Context Document)
 
-**v0.1 Draft** — Adjacent study document  
+**v1.0.0** — Adjacent study document  
 **July 23, 2026**
 
 This is a **standalone adjacent document**. It does not modify any of the core Sovereign Grok Agent Suite guides. It expands the broader context of sovereign computing by examining two complementary systems that are becoming relevant to agentic workflows:
@@ -158,6 +158,6 @@ This document captures the architectural direction and its relevance to sovereig
 
 ---
 
-**File location**: `/home/workdir/artifacts/docs/Sovereign_Agent_Infrastructure_Layer.md`
+**Canonical path**: `docs/` in https://github.com/MoloBTC-Org/sgas
 
 This document is adjacent to the core suite and does not alter any previously created guides.

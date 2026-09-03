@@ -1,4 +1,4 @@
-# v0.1 Draft - Sovereign Grok Agent Suite
+# Sovereign Grok Agent Suite — v1.0.0
 
 # Sovereign Local Models for Grok Build: Starter to Advanced Tiers
 ## Comprehensive Comparison with Grok Models – Minimal Hardware Overhead Focus
@@ -197,7 +197,7 @@ Key takeaways:
 
 All previous documents remain valid and are strengthened by these model options.
 
-**File saved at**: `/home/workdir/artifacts/Sovereign_Local_Models_Guide_Starter_to_Advanced.md`
+**Canonical path**: `docs/` in https://github.com/MoloBTC-Org/sgas
 
 This gives you a complete, progressive set of four documents covering mindset → agent building → tool hardening → model selection.
 

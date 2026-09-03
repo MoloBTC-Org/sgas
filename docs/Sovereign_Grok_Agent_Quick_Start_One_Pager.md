@@ -1,4 +1,4 @@
-# v0.1 Draft - Sovereign Grok Agent Suite
+# Sovereign Grok Agent Suite — v1.0.0
 
 # Sovereign Grok Agent Quick Start Guide
 
@@ -119,7 +119,7 @@ Grok 4.5 is now available on the free tier, making Grok Build much more accessib
 ---
 
 **All documents include Mermaid diagrams + ASCII fallbacks.**  
-Full suite available in `/home/workdir/artifacts/`.  
+Full suite: https://github.com/MoloBTC-Org/sgas  
 
 **Start here**: Open Beginner Foundations, follow the setup steps, then move to the Max Security Agent Guide.  
 

@@ -1,4 +1,4 @@
-# v0.1 Draft - Sovereign Grok Agent Suite
+# Sovereign Grok Agent Suite — v1.0.0
 
 # Visual Journey Map: Sovereign Grok Agent Suite
 
@@ -86,4 +86,4 @@ Full path above + extra focus on Sovereign Local Models (Top Tier) and advanced 
 
 This map now supports different starting points and depths depending on your hardware and goals.
 
-**File saved at**: `/home/workdir/artifacts/Visual_Journey_Map_Sovereign_Grok_Agent_Suite.md`
+**Canonical path**: `docs/` in https://github.com/MoloBTC-Org/sgas

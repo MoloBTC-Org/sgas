@@ -1,4 +1,4 @@
-# v0.1 Draft - Sovereign Grok Agent Suite
+# Sovereign Grok Agent Suite — v1.0.0
 
 # Grok-Native Sovereign Agent Path
 ## From Beginner to Advanced – Staying Grok-Native as Long as Possible While Maximizing Security, Sovereignty & Value from Your Subscription
@@ -154,7 +154,7 @@ This approach is honest: Grok is genuinely excellent for many use cases and has 
 
 The existing documents remain focused and uncluttered. This new standalone guide serves as the connective "Grok journey" map that users can follow from day one.
 
-**File saved at**: `/home/workdir/artifacts/Grok_Native_Sovereign_Agent_Path.md`
+**Canonical path**: `docs/` in https://github.com/MoloBTC-Org/sgas
 
 ---
 

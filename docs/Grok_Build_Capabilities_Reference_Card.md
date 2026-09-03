@@ -1,4 +1,4 @@
-# v0.1 Draft - Sovereign Grok Agent Suite
+# Sovereign Grok Agent Suite — v1.0.0
 
 # Grok Build Capabilities Reference Card (v1)
 
@@ -169,4 +169,4 @@ Grok Build has an official **Plugin Marketplace** that extends its capabilities.
 
 This reference card is intended as a living document — new plugins and capabilities will be added as the Grok Build ecosystem evolves.
 
-**File saved at**: `/home/workdir/artifacts/Grok_Build_Capabilities_Reference_Card.md`
+**Canonical path**: `docs/` in https://github.com/MoloBTC-Org/sgas

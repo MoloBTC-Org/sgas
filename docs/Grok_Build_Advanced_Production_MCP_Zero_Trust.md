@@ -1,4 +1,4 @@
-# v0.1 Draft - Sovereign Grok Agent Suite
+# Sovereign Grok Agent Suite — v1.0.0
 
 # Advanced: Production-Ready Zero Trust MCP Servers for Sovereign Grok Build Agents
 
@@ -281,6 +281,6 @@ You now have a complete three-document progression:
 
 This gives users a clear, progressive path from beginner to running reliable, auditable, and defensible sovereign Grok agent systems.
 
-**File saved at**: `/home/workdir/artifacts/Grok_Build_Advanced_Production_MCP_Zero_Trust.md`
+**Canonical path**: `docs/` in https://github.com/MoloBTC-Org/sgas
 
 Would you like any refinements (more tools in the example server, Docker example, integration with specific workflows like research or publishing agents, etc.)? Or shall we move on to the next piece?

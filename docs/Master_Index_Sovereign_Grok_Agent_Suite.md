@@ -1,10 +1,14 @@
-# v0.1 Draft - Sovereign Grok Agent Suite
+# Sovereign Grok Agent Suite — v1.0.0
 
 # Master Index: Sovereign Grok Agent Suite
 
 **A Complete, Progressive Set of Documents for Building Secure, Local-First AI Agents with Grok Build**
 
-**Date**: June 19, 2026  
+**Date**: August 31, 2026  
+**Version**: v1.0.0  
+**Canonical hub**: https://github.com/MoloBTC-Org/sgas  
+**Author**: @JabulaniJakes (published under MoloBTC-Org for housing only)  
+**Parked future work**: `docs/FUTURE_UPDATES.md`  
 **Purpose**: This index provides an overview, recommended reading order, and quick navigation for the full suite of documents created to support sovereign, secure, and practical agentic workflows using Grok Build.
 
 ---
@@ -106,7 +110,7 @@ All documents in this suite assume users will apply appropriate caution on sensi
 
 ## Document Locations
 
-All files are located in `/home/workdir/artifacts/`:
+All files live in https://github.com/MoloBTC-Org/sgas:
 
 - Grok_Build_Sovereign_Foundations_Beginner_Guide.md
 - Grok_Build_Max_Security_Agent_Guide.md

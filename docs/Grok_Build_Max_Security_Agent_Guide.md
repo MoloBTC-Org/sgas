@@ -1,4 +1,4 @@
-# v0.1 Draft - Sovereign Grok Agent Suite
+# Sovereign Grok Agent Suite — v1.0.0
 
 # Building AI Agents Natively with Grok Build in Maximum Security (Local-First) Mode
 **A Practical Guide Aligned with Iterative Planning Processes**  
@@ -338,6 +338,6 @@ Start with one narrow agent using the phases above. The compounding effect is re
 
 **Next step recommendation**: Pick one small problem from your existing plan, spin up a worktree, create the AGENTS.md, and run the first Plan Mode session today. You’ll have a working skeleton faster than you expect.
 
-File saved at: `/home/workdir/artifacts/Grok_Build_Max_Security_Agent_Guide.md`
+Canonical path: `docs/` in https://github.com/MoloBTC-Org/sgas
 
 Let me know if you want expansions on any section, example AGENTS.md for a specific workflow, or MCP server templates tailored to your needs. Ready to iterate on this document itself using the same secure process. 🚀

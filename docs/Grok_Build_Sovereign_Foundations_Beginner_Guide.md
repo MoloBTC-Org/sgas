@@ -1,4 +1,4 @@
-# v0.1 Draft - Sovereign Grok Agent Suite
+# Sovereign Grok Agent Suite — v1.0.0
 
 # Foundations of Sovereign AI Agents
 ## Why and How to Build Your Grok Stack Securely from the Ground Up
@@ -230,6 +230,6 @@ You now have both documents:
 
 Together they form a complete on-ramp from beginner mindset to building real, sovereign agentic workflows with Grok.
 
-File saved at: `/home/workdir/artifacts/Grok_Build_Sovereign_Foundations_Beginner_Guide.md`
+Canonical path: `docs/` in https://github.com/MoloBTC-Org/sgas
 
 This can be shared directly with anyone who wants to get started on the right footing. Let me know if you want any adjustments, more examples, or a version tailored even more specifically to your audience. Ready to refine.
