@@ -1,4 +1,4 @@
-# Sovereign Grok Agent Suite — v1.0.0
+# Sovereign Grok Agent Suite — v1.0.1
 
 # 08 — Visual Journey Map: Sovereign Grok Agent Suite
 
@@ -73,7 +73,7 @@ Phase 5: Grok-Native Journey
 Grok_Native Path (Start Grok-Native + Hybrid Points + Xplorer)
 ```
 
-### v1.1 Tiered Reading Paths
+### Tiered Reading Paths
 
 **Entry Tier** (Low hardware / cost-conscious / emerging markets):  
 Beginner Foundations → Sovereign Local Models (Entry Tier section) → Grok-Native Path (basic hybrid use)

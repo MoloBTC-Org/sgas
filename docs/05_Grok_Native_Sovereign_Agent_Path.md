@@ -1,9 +1,9 @@
-# Sovereign Grok Agent Suite — v1.0.0
+# Sovereign Grok Agent Suite — v1.0.1
 
 # 05 — Grok-Native Sovereign Agent Path
 ## From Beginner to Advanced – Staying Grok-Native as Long as Possible While Maximizing Security, Sovereignty & Value from Your Subscription
 
-**Version**: v1.0.0
+**Version**: v1.0.1
 
 This document serves as the **practical on-ramp** for users who want to start inside the Grok / xAI ecosystem and build powerful, secure agentic systems while staying as native and cost-effective as possible.
 
@@ -124,7 +124,7 @@ Stay Grok-native as long as it delivers excellent results with low friction. Int
 - Hardware investment only where it delivers clear capability gains.
 - Clear separation of concerns: Grok for what it does best, local models for maximum sovereignty and specialized performance.
 
-**v1.1 Tier-Aware Hybrid Approach**:
+**Tier-Aware Hybrid Approach**:
 - **Entry Tier**: Use Grok (apps + Build) as the main reasoning/search lever. Keep agent logic lightweight and local where possible.
 - **Balanced Tier**: Primary orchestration in Grok Build + strong local models for core/long-horizon work.
 - **Top Tier**: Can lean more on frontier Grok models via subscription while maintaining sovereign guardrails (local MCPs, worktrees, selective local models for sensitive tasks).

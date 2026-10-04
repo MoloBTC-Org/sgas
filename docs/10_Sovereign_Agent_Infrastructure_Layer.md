@@ -1,7 +1,9 @@
+# Sovereign Grok Agent Suite — v1.0.1
+
 # 10 — Sovereign Agent Infrastructure Layer (Adjacent Context)
 
-**v1.0.0** — Adjacent study document  
-**Version**: v1.0.0
+**v1.0.1** — Adjacent study document  
+**Version**: v1.0.1
 
 Adjacent context only — not part of the core reading path. It describes two systems that sit beside the agent-building guides:
 

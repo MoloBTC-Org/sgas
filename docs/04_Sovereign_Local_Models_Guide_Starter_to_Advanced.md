@@ -1,9 +1,9 @@
-# Sovereign Grok Agent Suite — v1.0.0
+# Sovereign Grok Agent Suite — v1.0.1
 
 # 04 — Sovereign Local Models for Grok Build: Starter to Advanced Tiers
 ## Comprehensive Comparison with Grok Models – Minimal Hardware Overhead Focus
 
-**Version**: v1.0.0
+**Version**: v1.0.1 (September 2026 Entry Tier refresh)
 
 This guide is the model-layer companion to the foundations, agent, and MCP documents. It is focused on choosing the right base LLM for sovereign, local-first operation with Grok Build. The emphasis is always on:
 
@@ -31,7 +31,7 @@ We evaluate models using these criteria, always in the context of **Grok Build +
 | **Comparison to Grok Models**| Performance vs current Grok API / open releases                             | Helps decide when to use Grok vs alternatives               | Medium |
 | **Ecosystem & Tooling**      | Support in coding agents, quantization tools, deployment guides             | Reduces friction for production use                         | Medium |
 
-**v1.1 Tier Structure (Hardware + Economic Reality)**
+**Tier Structure (Hardware + Economic Reality)**
 
 We now organize recommendations around three practical tiers that account for real-world constraints — especially in emerging markets where users face limited hardware *and* weak local currency.
 
@@ -91,6 +91,12 @@ Goal: Get started immediately with very low hardware requirements. Focus on lear
 | **Qwen2.5 14B / 7B**   | 7–14B             | Q5_K_M                   | 5–10 GB      | Excellent        | Often matches or exceeds smaller Grok variants in coding | Alibaba open weights (Apache 2.0) | Top starter pick |
 | **Llama 3.1 8B**       | 8B                | Q5_K_M / Q4_K_M          | 5–8 GB       | Good             | Slightly behind current Grok        | Meta open weights                 | Reliable baseline |
 | **Mistral 7B / 8x7B**  | 7–46B (MoE)       | Q4_K_M                   | 6–12 GB      | Good             | Competitive in specific domains     | Mistral open weights              | Good for specific use |
+| **Ternary Bonsai 2 27B** | 27B (ternary)   | PTQ1_0 ~5.9 GB / PQ2_0 ~7.3 GB | 8–16 GB VRAM or 16 GB unified memory | Very strong (coding, vision, tool use) | Near-parity with Qwen3.8-27B on vendor aggregate (98.2%) | Apache 2.0; needs PrismML llama.cpp fork or MLX | **Primary Strong Entry pick (Sep 2026)** |
+
+**Capability compression (September 2026)**  
+Extreme ternary quantization (Ternary Bonsai 2 27B) now puts near-full 27B-class multimodal and agentic capability into the Entry Tier on 16 GB-class machines: about 6–8 GB on disk, vendor-reported 98.2% aggregate retention versus the full-precision Qwen3.8-27B parent. That 98.2% is an official benchmark average, not a guarantee on every multi-step agent task. Knowledge and vision still drop a little. Treat it as a deployment unlock, not as identical to the uncompressed model.
+
+**Runtime note:** this is not drop-in vanilla Ollama. Use PrismML’s llama.cpp fork for GGUF, the MLX build on Apple silicon, the [PrismML Bonsai demo](https://github.com/PrismML-Eng/Bonsai-demo), or [atomic.chat](https://atomic.chat) as a consumer on-ramp. atomic.chat is a convenient interface, not a sovereignty layer. After the model runs, come back to Grok Build + this suite for Plan Mode, worktrees, and MCP.
 
 **Starter Configuration Example** (in `~/.grok/config.toml`):
 
@@ -161,7 +167,8 @@ This tier is for users who have (or can access) strong hardware, or who are comf
 
 **Quick Decision Guide**:
 
-- **Just starting / constrained hardware** → Qwen2.5 14B or Gemma 3 12B (via Ollama).
+- **16 GB Mac / 8–16 GB VRAM** → Ternary Bonsai 2 27B (via atomic.chat, PrismML demo, MLX, or PrismML llama.cpp fork) as the strongest local option; hybrid free-cloud Grok only when needed.
+- **Just starting / very small RAM or you want one-command Ollama** → Qwen2.5 14B or Gemma 3 12B.
 - **Serious local work, reasonable desktop GPU(s)** → Qwen2.5/Qwen3 32B or Llama 70B class, or GLM-5.2 FP8.
 - **Maximum sovereignty + agentic performance, willing to invest in hardware** → GLM-5.2 (quantized as needed).
 - **Want Grok personality + real-time tools** → Use Grok via API for some tasks, local open model for others (hybrid is valid).
@@ -174,7 +181,7 @@ This tier is for users who have (or can access) strong hardware, or who are comf
 
 | Tier              | Hardware Target          | Top Recommendations                  | Best For                              | vs Grok                          | Sovereignty Level |
 |-------------------|--------------------------|--------------------------------------|---------------------------------------|----------------------------------|-------------------|
-| **Starter**       | Laptop / modest GPU     | Qwen2.5 14B, Gemma 3 12B, Phi-4     | Learning, simple agents               | Competitive in narrow tasks     | High             |
+| **Starter / Strong Entry** | 16 GB class / modest GPU | Ternary Bonsai 2 27B; else Qwen2.5 14B, Gemma 3 12B | Local agent loops on constrained hardware | Near 27B-class locally; Grok for live search | High             |
 | **Intermediate**  | Desktop 1–2 GPUs        | Qwen 32B, Llama 70B, GLM-5.2 FP8    | Real agentic workflows, publishing, research | Often matches or exceeds in agentic domains | Very High        |
 | **Advanced**      | Multi-GPU / Server      | GLM-5.2 (higher precision), future frontier open models | Complex long-horizon agentic systems | Can match or exceed current Grok in specific strengths | Maximum          |
 

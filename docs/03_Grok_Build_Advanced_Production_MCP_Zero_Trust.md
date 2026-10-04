@@ -1,9 +1,9 @@
-# Sovereign Grok Agent Suite — v1.0.0
+# Sovereign Grok Agent Suite — v1.0.1
 
 # 03 — Production-Ready Zero Trust MCP Servers for Sovereign Grok Build Agents
 
 **A Practical Guide for Hardening Tool Integration in Local-First Agentic Workflows**  
-**Version**: v1.0.0
+**Version**: v1.0.1
 
 Use this after the Beginner Foundations and Max Security Agent guides. It focuses on **productionizing MCP servers** with strong Zero Trust authentication, scoping, logging, and operational practices. This is the layer that turns experimental agents into reliable, auditable, and defensible systems — especially important for sovereignty-focused work (Bitcoin/node operations, publishing pipelines, research, or any sensitive long-running projects).
 

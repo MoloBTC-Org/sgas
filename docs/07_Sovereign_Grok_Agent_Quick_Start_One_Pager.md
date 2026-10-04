@@ -1,9 +1,9 @@
-# Sovereign Grok Agent Suite — v1.0.0
+# Sovereign Grok Agent Suite — v1.0.1
 
 # 07 — Sovereign Grok Agent Quick Start Guide
 
 **From Beginner to Sovereign SuperAgent with Grok Build**  
-**Version**: v1.0.0
+**Version**: v1.0.1
 
 ---
 
@@ -41,7 +41,9 @@ Foundations → Building Agents → Harden Tools → Choose Models → Grok-Nati
 
 ---
 
-## v1.1 Tiered Quick-Start Paths
+## Tiered Quick-Start Paths
+
+September 2026 Entry Tier update includes **Ternary Bonsai 2 27B** for compute-poor 16 GB systems. See the 16 GB starter path below and doc 04.
 
 ### Entry Tier (Low Hardware / Cost-Conscious / Emerging Markets)
 **Goal**: Start fast with minimal hardware and USD spend. Use efficient local models + Grok as a smart lever.
@@ -98,6 +100,18 @@ Grok 4.5 is now available on the free tier, making Grok Build much more accessib
 
 ---
 
+## 16 GB starter path (September 2026)
+
+For a 16 GB Mac, 16–24 GB unified memory, or 8–16 GB VRAM card:
+
+1. Load **Ternary Bonsai 2 27B** locally (~6–8 GB). Use [atomic.chat](https://atomic.chat), the [PrismML demo](https://github.com/PrismML-Eng/Bonsai-demo), MLX on Apple silicon, or PrismML’s llama.cpp fork. This is not a default Ollama pull.
+2. Confirm a short local prompt works (coding or vision). Do not skip this.
+3. Open this One-Pager, then **01 Foundations** and **02 Max Security**. Create a project folder, `AGENTS.md`, and a worktree.
+4. Keep Grok (free or paid) as the live-search / hard-reasoning lever. Keep private files and tool calls on the local model + self-hosted MCP.
+5. Build one narrow agent. Do not start with a swarm.
+
+Vendor claim to remember: 98.2% aggregate retention versus Qwen3.8-27B, not identity on every long agent trace.
+
 ## Quick Start Steps
 
 1. Install Grok Build + local LLM (Ollama recommended).
@@ -118,7 +132,7 @@ Grok 4.5 is now available on the free tier, making Grok Build much more accessib
 
 ---
 
-**All documents include Mermaid diagrams + ASCII fallbacks.**  
+**Some documents include Mermaid diagrams with ASCII fallbacks in the body.**  
 Full suite: https://github.com/MoloBTC-Org/sgas  
 
 **Start here**: Open Beginner Foundations, follow the setup steps, then move to the Max Security Agent Guide.  

@@ -1,11 +1,11 @@
-# Sovereign Grok Agent Suite — v1.0.0
+# Sovereign Grok Agent Suite — v1.0.1
 
 # 09 — Master Index: Sovereign Grok Agent Suite
 
 **A Complete, Progressive Set of Documents for Building Secure, Local-First AI Agents with Grok Build**
 
-**Date**: August 31, 2026  
-**Version**: v1.0.0  
+**Date**: September 29, 2026  
+**Version**: v1.0.1  
 **Canonical hub**: https://github.com/MoloBTC-Org/sgas  
 **Author**: @JabulaniJakes (published under MoloBTC-Org for housing only)  
 **Purpose**: This index provides an overview, recommended reading order, and quick navigation for the full suite of documents that support sovereign, secure, and practical agentic workflows using Grok Build.
@@ -24,6 +24,8 @@ This suite helps readers (especially those focused on sovereignty, open-source, 
 
 The documents form a logical progression from mindset to advanced production systems, with visual diagrams and ASCII fallbacks for accessibility.
 
+September 2026 Entry Tier update includes Ternary Bonsai 2 27B for compute-poor 16 GB systems (see docs 04 and 07). Doc 11 maps SGAS against the wider harness ecosystem so it is not mistaken for a product you install.
+
 ---
 
 ## Recommended Reading Order
@@ -37,7 +39,7 @@ The documents form a logical progression from mindset to advanced production sys
    The core "how-to" guide. Covers Plan Mode, worktrees, AGENTS.md, incremental memory, self-hosted MCPs, and the full iterative planning process. Includes setup flows and agent building loop diagrams.
 
 3. **03_Grok_Build_Advanced_Production_MCP_Zero_Trust.md**  
-   *Advanced: Production-Ready Zero Trust MCP Servers for Sovereign Grok Build Agents*  
+   *Production-Ready Zero Trust MCP Servers for Sovereign Grok Build Agents*  
    Hardens the tool layer. Provides a complete production-ready authenticated MCP server example (with Git operations), logging, scoping, and integration patterns with worktrees. Includes tool call lifecycle and integration flow diagrams.
 
 4. **04_Sovereign_Local_Models_Guide_Starter_to_Advanced.md**  
@@ -47,6 +49,12 @@ The documents form a logical progression from mindset to advanced production sys
 5. **05_Grok_Native_Sovereign_Agent_Path.md**  
    *Grok-Native Sovereign Agent Path: From Beginner to Advanced*  
    The practical on-ramp and journey map. Shows how to start inside the Grok/xAI ecosystem, leverage subscription tiers, and strategically introduce local/open models and the secure MCP layer. Explicitly maps hybrid points and includes product-building workflows (with original vs Grok-native vs hybrid diagrams) plus coverage of tools like Xplorer.
+
+Supporting and adjacent:
+
+- **06** Capabilities Card · **07** One-Pager (includes 16 GB starter path) · **08** Visual Journey Map
+- **10** Infrastructure Layer (Start9 / Buzz)
+- **11** Agent Ecosystem Map — where SGAS and Grok Build sit next to other harnesses (OpenClaw, Hermes, DeepSeek dsh, Grok Bot). Read this if you are arriving from another stack.
 
 ---
 
@@ -64,7 +72,7 @@ The documents form a logical progression from mindset to advanced production sys
 | Product Building Workflows  | 05_Grok_Native_Sovereign_Agent_Path                | Section 5 + workflow diagrams (original / Grok-native / hybrid) |
 | Zero Trust Implementation   | Advanced Production MCP + Grok_Native Path      | Authentication, scoping, logging, worktree isolation |
 | Hybrid Tool Decisions       | 05_Grok_Native_Sovereign_Agent_Path                | Explicit hybrid points + Xplorer example |
-| Diagrams & Accessibility    | All documents (see Appendix in each)            | Mermaid primary + ASCII fallbacks |
+| Diagrams & Accessibility    | Where a diagram exists (01, 03, 07, 08)         | Mermaid in-body + ASCII fallback  |
 
 ---
 
@@ -75,7 +83,7 @@ The documents form a logical progression from mindset to advanced production sys
 - **Iterate Safely**: Plan Mode + worktrees are foundational for auditable, low-risk experimentation.
 - **Zero Trust by Default**: Authenticate, scope narrowly, log everything, verify continuously.
 - **Design for Evolution**: Begin simple; add complexity (memory, sub-agents, advanced MCP features) only when needed.
-- **Visual + Accessible**: Every document includes Mermaid diagrams with ASCII fallbacks.
+- **Visual + Accessible**: Diagrams appear in-body where they exist (not every file).
 
 ---
 
@@ -121,11 +129,12 @@ All files live in https://github.com/MoloBTC-Org/sgas:
 - 08_Visual_Journey_Map_Sovereign_Grok_Agent_Suite.md
 - 09_Master_Index_Sovereign_Grok_Agent_Suite.md
 - 10_Sovereign_Agent_Infrastructure_Layer.md
+- 11_Agent_Ecosystem_Map.md
 
-Each document ends with its own Appendix containing ASCII diagram fallbacks for accessibility.
+ASCII fallbacks sit next to Mermaid where a diagram exists. There is no separate Appendix file per document.
 
 ---
 
-The suite is complete for this release.
+The suite is complete for **v1.0.1** (docs 01–11).
 
 Canonical hub: https://github.com/MoloBTC-Org/sgas

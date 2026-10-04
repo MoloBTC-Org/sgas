@@ -1,9 +1,9 @@
-# Sovereign Grok Agent Suite — v1.0.0
+# Sovereign Grok Agent Suite — v1.0.1
 
 # 01 — Foundations of Sovereign AI Agents
 ## Why and How to Build Your Grok Stack Securely from the Ground Up
 **A Beginner’s Entry-Level Guide**  
-**Version**: v1.0.0
+**Version**: v1.0.1
 
 Read this first. Then use the Max Security Agent Guide to build a real agent.
 

@@ -1,8 +1,8 @@
-# Sovereign Grok Agent Suite — v1.0.0
+# Sovereign Grok Agent Suite — v1.0.1
 
 # 02 — Building AI Agents Natively with Grok Build in Maximum Security (Local-First) Mode
 **A practical guide for local-first, auditable agent construction**  
-**Version**: v1.0.0
+**Version**: v1.0.1
 
 This guide shows how to build narrow, useful agents in Grok Build with maximum security: local reasoning where practical, self-hosted stdio MCPs, Git worktree isolation, Plan Mode, and a strict `AGENTS.md`.
 

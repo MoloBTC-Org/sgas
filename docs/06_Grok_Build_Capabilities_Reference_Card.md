@@ -1,9 +1,9 @@
-# Sovereign Grok Agent Suite — v1.0.0
+# Sovereign Grok Agent Suite — v1.0.1
 
 # 06 — Grok Build Capabilities Reference Card
 
 **What You Can Actually Do with Grok Build**  
-**Version**: v1.0.0
+**Version**: v1.0.1
 
 This card provides a clear, scannable overview of Grok Build’s current capabilities. It is designed as a quick reference for users (especially those in emerging markets or with constrained hardware) to understand what is possible today.
 
@@ -143,7 +143,7 @@ Grok Build has an official **Plugin Marketplace** that extends its capabilities.
 - Strong real-time search and reasoning
 - Lower hardware requirements on your local machine
 
-**Recommended Approach (v1.1 Tiers)**:
+**Recommended Approach (hardware tiers)**:
 - **Entry Tier**: Maximize local efficiency + use Grok strategically via apps/Build as a lever.
 - **Balanced Tier**: Primary orchestration in Grok Build + strong local models for core work.
 - **Top Tier**: Can lean more heavily on Grok cloud models while keeping sensitive actions local via MCPs and worktrees.
@@ -167,6 +167,6 @@ Grok Build has an official **Plugin Marketplace** that extends its capabilities.
 
 **All core documents in this suite include Mermaid diagrams + ASCII fallbacks.**
 
-This reference card is intended as a living document — new plugins and capabilities will be added as the Grok Build ecosystem evolves.
+This reference card is intended as a reference card for this release — new plugins and capabilities will be added as the Grok Build ecosystem evolves.
 
 **Canonical path**: `docs/` in https://github.com/MoloBTC-Org/sgas
