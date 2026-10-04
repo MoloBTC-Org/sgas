@@ -2,7 +2,7 @@
 
 ![Sovereign Grok Agent Suite](assets/header-sovereign-grok-agent-suite.jpg)
 
-**v1.0.0**
+**v1.0.1**
 
 Canonical hub: [github.com/MoloBTC-Org/sgas](https://github.com/MoloBTC-Org/sgas)
 
@@ -12,7 +12,7 @@ A modular collection of documents for building **sovereign, secure, and practica
 
 ## Current Status
 
-- **Version**: v1.0.0
+- **Version**: v1.0.1
 - This repository is the **canonical published suite**.
 - **Grok Build** reached **v1.0.0** and is **open-sourced** (Apache 2.0) by xAI / SpaceXAI.
 - Grok 4.5 is available on the free tier, which improves accessibility for Entry Tier users.
@@ -60,7 +60,8 @@ sgas/
     ├── 07_Sovereign_Grok_Agent_Quick_Start_One_Pager.md
     ├── 08_Visual_Journey_Map_Sovereign_Grok_Agent_Suite.md
     ├── 09_Master_Index_Sovereign_Grok_Agent_Suite.md
-    └── 10_Sovereign_Agent_Infrastructure_Layer.md   # adjacent
+    ├── 10_Sovereign_Agent_Infrastructure_Layer.md   # adjacent
+    └── 11_Agent_Ecosystem_Map.md                    # adjacent
 ```
 
 ---
@@ -82,7 +83,7 @@ Entry points:
 4. [04 — Sovereign Local Models for Grok Build: Starter to Advanced Tiers](docs/04_Sovereign_Local_Models_Guide_Starter_to_Advanced.md)
 5. [05 — Grok-Native Sovereign Agent Path](docs/05_Grok_Native_Sovereign_Agent_Path.md)
 
-Adjacent: [10 — Sovereign Agent Infrastructure Layer (Adjacent Context)](docs/10_Sovereign_Agent_Infrastructure_Layer.md)
+Adjacent: [10 — Sovereign Agent Infrastructure Layer](docs/10_Sovereign_Agent_Infrastructure_Layer.md) · [11 — Agent Ecosystem Map](docs/11_Agent_Ecosystem_Map.md)
 
 
 ---

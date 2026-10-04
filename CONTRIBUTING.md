@@ -1,6 +1,6 @@
 # Contributing to Sovereign Grok Agent Suite
 
-**Version**: v1.0.0  
+**Version**: v1.0.1  
 **Canonical hub**: https://github.com/MoloBTC-Org/sgas
 
 **Author**: @JabulaniJakes  
@@ -21,12 +21,12 @@ Use GitHub Issues on the canonical repo.
 ### Style Guidelines
 - Clear, practical, sovereignty-focused language.
 - Consistent headings, tables, and code blocks.
-- Mermaid diagrams plus ASCII fallbacks where diagrams exist.
+- Mermaid diagrams plus ASCII fallbacks only where a diagram exists. Do not claim every document has an appendix.
 - Fit new material into Entry / Balanced / Top Tier.
 - Do not present expensive cloud-only multi-agent platforms as the default path.
 
 ### Versioning
-Current release: **v1.0.0**.  
+Current release: **v1.0.1**.  
 Additive improvements that do not change the methodology land in a future v1.x.
 
 ## Code of Conduct

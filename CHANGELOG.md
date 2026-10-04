@@ -6,6 +6,22 @@ Format: Keep a Changelog. Versioning: SemVer.
 
 ---
 
+## [v1.0.1] - 2026-09-20 (metadata aligned 2026-09-29)
+
+Entry-Tier models refresh and ecosystem map. Methodology unchanged.
+Workdir copy aligned for GitHub refresh: suite banners and Version lines set to v1.0.1; leftover “v1.1” heading labels removed; diagram/appendix overclaims in 07 and 09 corrected; doc 10 given the shared suite banner.
+
+### Added
+- Ternary Bonsai 2 27B as Strong Entry recommendation in doc 04 (runtime caveat included)
+- 16 GB starter path in doc 07
+- Doc 11 — Agent Ecosystem Map (SGAS vs parallel harnesses vs perpendicular layers)
+
+### Changed
+- Docs 04, 07, 09 carry a September 2026 Entry Tier note
+- Quick Decision Guide now points 16 GB-class machines at Bonsai 2 first
+
+---
+
 ## [v1.0.0] - 2026-08-31
 
 First locked public release of the Sovereign Grok Agent Suite.
